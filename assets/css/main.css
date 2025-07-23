@@ -1415,6 +1415,10 @@ p + p{
   margin-top: 1.25rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1529,6 +1533,82 @@ p + p{
 
 .h-\[790px\]{
   height: 790px;
+}
+
+.h-1{
+  height: 0.25rem;
+}
+
+.h-\[0px\]{
+  height: 0px;
+}
+
+.h-\[30px\]{
+  height: 30px;
+}
+
+.h-\[20px\]{
+  height: 20px;
+}
+
+.h-\[10px\]{
+  height: 10px;
+}
+
+.h-\[5px\]{
+  height: 5px;
+}
+
+.h-\[3px\]{
+  height: 3px;
+}
+
+.h-\[2px\]{
+  height: 2px;
+}
+
+.h-\[1px\]{
+  height: 1px;
+}
+
+.h-\[0\.px\]{
+  height: 0.px;
+}
+
+.h-\[0\.8px\]{
+  height: 0.8px;
+}
+
+.h-\[-0\.8px\]{
+  height: -0.8px;
+}
+
+.h-\[-1px\]{
+  height: -1px;
+}
+
+.h-\[0\.5px\]{
+  height: 0.5px;
+}
+
+.h-\[0\2c 5px\]{
+  height: 0,5px;
+}
+
+.h-\[px\]{
+  height: px;
+}
+
+.h-\[60px\]{
+  height: 60px;
+}
+
+.h-\[750px\]{
+  height: 750px;
+}
+
+.h-\[730px\]{
+  height: 730px;
 }
 
 .w-10{
@@ -1916,6 +1996,21 @@ p + p{
   padding-bottom: 6px;
 }
 
+.py-1{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -2152,8 +2247,28 @@ p + p{
   padding-right: 0.75rem;
 }
 
+.col-1{
+  width: 8.333333%;
+}
+
 .col-6{
   width: 50%;
+}
+
+.col-8{
+  width: 66.666667%;
+}
+
+.col-9{
+  width: 75%;
+}
+
+.col-10{
+  width: 83.333333%;
+}
+
+.col-11{
+  width: 91.666667%;
 }
 
 .col-12{
@@ -2294,6 +2409,21 @@ p + p{
     padding-bottom: 3rem;
   }
 
+  .sm\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .sm\:py-1{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .sm\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
   .sm\:pb-4{
     padding-bottom: 1rem;
   }
@@ -2379,6 +2509,18 @@ p + p{
 
   .md\:col-6{
     width: 50%;
+  }
+
+  .md\:col-7{
+    width: 58.333333%;
+  }
+
+  .md\:col-8{
+    width: 66.666667%;
+  }
+
+  .md\:col-10{
+    width: 83.333333%;
   }
 }
 
@@ -2503,12 +2645,20 @@ p + p{
     line-height: 2rem;
   }
 
+  .xl\:col-1{
+    width: 8.333333%;
+  }
+
   .xl\:col-4{
     width: 33.333333%;
   }
 
   .xl\:col-8{
     width: 66.666667%;
+  }
+
+  .xl\:col-10{
+    width: 83.333333%;
   }
 
   .xl\:col-12{
