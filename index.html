@@ -4,37 +4,37 @@
     <!-- Meta Tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Copyright" content="Inazuma" />
+    <meta http-equiv="Copyright" content="Ngomongo" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Ranyeh" />
+    <meta name="author" content="Spark" />
     <meta name="rating" content="general" />
     <meta name="language" content="English" />
-    <meta name="application-name" content="Inazuma" />
+    <meta name="application-name" content="Ngomongo" />
     <meta
       name="description"
-      content="Tailwind CSS Company Landing Page Template by Ranyeh."
+      content="Secure End-to-End Encrypted Communication Platform by Spark."
     />
-    <meta name="keywords" content="company" />
+    <meta name="keywords" content="communication, encrypted, secure, messaging, ngomongo" />
     <meta
       name="twitter:title"
-      content="Inazuma | Tailwind CSS Company Landing Page"
+      content="Ngomongo | Secure Communication Platform"
     />
     <meta
       name="twitter:description"
-      content="Tailwind CSS Company Landing Page Template by Ranyeh."
+      content="Secure End-to-End Encrypted Communication Platform by Spark."
     />
-    <meta name="twitter:image" content="./assets/img/inazuma-cover.png" />
+    <meta name="twitter:image" content="./assets/img/ngomongo-preview.png" />
     <meta
-      content="Inazuma | Tailwind CSS Company Landing Page"
+      content="Ngomongo | Secure Communication Platform"
       property="og:title"
     />
-    <meta content="Inazuma" property="og:site_name" />
+    <meta content="Ngomongo" property="og:site_name" />
     <meta
-      content="Tailwind CSS Company Landing Page Template by Ranyeh."
+      content="Secure End-to-End Encrypted Communication Platform by Spark."
       property="og:description"
     />
     <meta content="./assets/img/ngomongo-logo.jpg" property="og:image" />
-    <meta content="https://ranyeh24.github.io/inazuma-tailwind" property="og:url" />
+    <meta content="https://ngomongoxyz.vercel.app/" property="og:url" />
     <meta content="website" property="og:type" />
 
     <meta name="msapplication-TileColor" content="#3d63dd" />
@@ -47,47 +47,57 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <!-- Page title -->
-    <title>Ngomongo Website</title>
+    <title>Ngomongo | Secure Communication Platform</title>
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://ranyeh24.github.io/inazuma-tailwind" />
+    <link rel="canonical" href="https://ngomongoxyz.vercel.app/" />
 
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./assets/favicon/apple-touch-icon.png"
+      href="./assets/favicon_io/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
+      href="./assets/favicon_io/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="194x194"
-      href="./assets/favicon/favicon-194x194.png"
+      href="./assets/favicon_io/favicon-194x194.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="./assets/favicon/android-chrome-192x192.png"
+      href="./assets/favicon_io/android-chrome-192x192.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
+      href="./assets/favicon_io/favicon-16x16.png"
     />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest.json" />
+    <link rel="manifest" href="./assets/favicon_io/site.webmanifest.json" />
     <link
       rel="mask-icon"
-      href="./assets/favicon/safari-pinned-tab.svg"
+      href="./assets/favicon_io/safari-pinned-tab.svg"
       color="#3d63dd"
     />
+
+    <!-- Script EmailJS -->
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("oxVaX4DE5kR8xdJ9r"); // Ganti dengan public key EmailJS kamu
+      })();
+    </script>
 
     <!-- CSS Plugins -->
     <link
@@ -509,7 +519,7 @@
             <a
             href="https://play.google.com/store/apps/details?id=com.instagram.android" 
             target="_blank" rel="noopener"
-aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 text-white hover:bg-orange-500 hover:text-white focus:bg-green-500 focus:text-white"
+            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 text-white hover:bg-orange-500 hover:text-white focus:bg-green-500 focus:text-white"
             role="button"
             >Get Started Now</a
             >
@@ -2002,16 +2012,16 @@ aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 tex
               >
                 <div class="text-center max-w-[550px] mx-auto mb-12">
                   <h6 class="mb-2 block text-lg font-semibold text-primary">
-                    Testimoni
+                    Contact Us
                   </h6>
-                  <h2 class="mb-3">Share Your Thoughts</h2>
+                  <h2 class="mb-3">Get In Touch</h2>
                   <p>
-                    We truly value your experience and feedback! 
-                    Please fill out the form below to share your testimonial about using the Ngomongo app.
+                    We'd love to hear from you! Whether you have a question, feedback, or just want to say hello,
+                      feel free to reach out by filling out the form below.
                   </p>
                 </div>
 
-                <form action="#" method="POST" class="flex flex-col gap-6">
+                <form id="contact-form"class="flex flex-col gap-6">
                   <div class="row">
                     <div class="col-12 md:col-6">
                       <input
@@ -2035,7 +2045,7 @@ aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 tex
 
                     <div class="col-12 md:col-6">
                       <input
-                        type="text"
+                        type="tel"
                         name="phone"
                         class="block w-full px-5 py-3 rounded-md border border-solid border-alpha-light dark:border-alpha-dark text-inherit text-base focus:border-primary"
                         placeholder="Phone"
@@ -2061,6 +2071,7 @@ aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 tex
                         placeholder="Type your message"
                         required
                       ></textarea>
+                      <input type="hidden" name="waktu_kirim" id="waktu_kirim" />
                     </div>
 
                     <div class="col-12">
@@ -2075,6 +2086,11 @@ aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 tex
                     </div>
                   </div>
                 </form>
+                <script>
+                  window.onload = function () {
+                    document.getElementById("waktu_kirim").value = new Date().toLocaleString('id-ID', { timeZone: 'Asia/Jakarta' });
+                  };
+                </script>
               </div>
             </div>
           </div>
@@ -2158,7 +2174,7 @@ aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 tex
                   <a
                     href="#call-action"
                     class="mb-3 inline-block text-body-dark-11 hover:text-primary"
-                    >Dwonload</a
+                    >Download</a
                   >
                 </li>
               </ul>
@@ -2263,6 +2279,23 @@ aaaa            class="inline-block px-5 py-3 rounded-md mt-11 bg-orange-600 tex
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- Script EmailJS -->
+    <script>
+      document.getElementById("contact-form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Mencegah reload form
+
+        emailjs.sendForm("service_s0wvxl7", "template_a9j96se", this)
+          .then(function () {
+            alert("Message sent successfully!");
+            document.getElementById("contact-form").reset(); // Kosongkan form
+          }, function (error) {
+            console.log("FAILED...", error);
+            alert("Failed to send message. Please try again.");
+          });
+      });
+    </script>
+
 
     <script>
       lucide.createIcons();
