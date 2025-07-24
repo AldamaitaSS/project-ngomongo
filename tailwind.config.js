@@ -29,7 +29,7 @@ module.exports = {
             8: "#87a5ef",
             9: "#3d63dd",
             10: "#3657c3",
-            11: "#395bc7",
+            11: "#ccfbb0ff",
             12: "#5b913bbb",
           },
           dark: {
