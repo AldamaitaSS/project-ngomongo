@@ -536,8 +536,7 @@ img{
 a{
   text-wrap: balance;
   overflow-wrap: break-word;
-  --tw-text-opacity: 1;
-  color: rgb(57 91 199 / var(--tw-text-opacity));
+  color: #ccfbb0ff;
   text-decoration-line: none;
 }
 
@@ -1905,11 +1904,6 @@ p + p{
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
-.text-body-dark-11{
-  --tw-text-opacity: 1;
-  color: rgb(180 182 191 / var(--tw-text-opacity));
-}
-
 .text-body-light-10{
   --tw-text-opacity: 1;
   color: rgb(128 130 141 / var(--tw-text-opacity));
@@ -2025,6 +2019,11 @@ p + p{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:bg-body-dark-11:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(180 182 191 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(91 145 59 / var(--tw-bg-opacity));
@@ -2038,6 +2037,15 @@ p + p{
 .hover\:bg-primary-light-10:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(54 87 195 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary-dark-11:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 181 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary-light-11:hover{
+  background-color: #ccfbb0ff;
 }
 
 .hover\:text-black:hover{
