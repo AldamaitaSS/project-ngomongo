@@ -15,7 +15,8 @@ module.exports = {
         primary: {
           'primary-blue': '#465C88',
           'orange': '#FF6728',
-          DEFAULT: "#465C88",
+          'ijo': '#77B254',
+          DEFAULT: "#5B913B",
           color: "#fff",
           light: {
             1: "#fdfdfe",
@@ -29,13 +30,13 @@ module.exports = {
             9: "#3d63dd",
             10: "#3657c3",
             11: "#395bc7",
-            12: "#465c88c0",
+            12: "#5b913bbb",
           },
           dark: {
             1: "#1d222e",
             2: "#1e2534",
             3: "#233157",
-            4: "#465c88c0",
+            4: "#5b913bbb",
             5: "#2e4480",
             6: "#364d8e",
             7: "#3e58a0",
